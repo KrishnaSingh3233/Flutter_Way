@@ -9,14 +9,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello Dude"),
+        title: Center(child: Text("Hello Dude")),
       ),
       body: Center(
         child: Container(
           child: Text("Welcome to $day flutter by $name"),
         ),
       ),
-      drawer: Drawer(),
+      //  drawer: Drawer(),
     );
   }
 }
